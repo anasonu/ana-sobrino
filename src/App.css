@@ -1,38 +1,122 @@
+body{
+  background-color: #0D0827;
+  color: #efecff;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.working-img {
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.opacity {
+  opacity: .7;
+}
+
+.presentation-box {
+  width: 80%;
+}
+
+.green {
+  color: #64FBD3;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.green-btn {
+  background-color: transparent;
+  border: 1px solid #64fbd3;
+  padding: 14px 24px;
+  border-radius: 3px;
+  transition: background-color .3s;
+  margin: 8px 0 24px 0;
+}
+
+/* Icons */
+
+.icons-box {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .App {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .presentation-box {
+    width: 40%;
   }
+  
+  .working-img {
+    width: 40%;
+  }
+
+  .green {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 70px;
+    margin: 24px 0 8px 0;
+  }
+  
+  h2 {
+    margin: 0 0 24px 0;
+    font-size: 50px;
+  }
+  
+  .text-box {
+    width: 80%;
+    margin-bottom: 32px;
+    line-height: 24px;
+  }
+
+  .green-btn {
+    cursor: pointer;
+    transition: background-color .3s;
+    margin: 0 0 32px 0;
+  }
+
+  .green-btn:hover {
+    background-color: #64FBD3;
+    color: #0A1A2F;
+  }
+  
+  .green-btn:active {
+    background-color: rgba(100, 251, 211, 0.3);
+  }
+
+  /* Icons */
+
+  .icons-box {
+    width: 170px;
+  }
+
+  .icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.icon:hover {
+  stroke: #64FBD3;
+  bottom: 1px;
+}
+  
 }
