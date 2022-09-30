@@ -12,7 +12,7 @@ function Intro() {
       <h2>I build digital products.</h2>
       <p className="green bottom">Product Manager + Software Engineer</p>
       <p className="text-box opacity bottom">
-        I’m a junior Software Engineer with a User Experience and Product
+        I’m a Software Engineer with a User Experience and Product
         Management background. I design and build digital solutions always
         thinking about how the user might interact with the product.
       </p>
