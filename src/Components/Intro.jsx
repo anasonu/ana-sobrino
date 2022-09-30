@@ -4,20 +4,17 @@ import Contact from "./Contact";
 function Intro() {
   return (
     <div className="presentation-box">
-      <p className="green">Hello! My name is</p>
-      <h1>Ana Sobrino.</h1>
-      <h2 className="opacity">I build digital products.</h2>
-      <p className="text-box">
-        <span className="opacity">I’m a junior </span>
-        <span className="green">Software Engineer</span>
-        <span className="opacity"> with a </span>
-        <span className="green">User Experience</span>
-        <span className="opacity"> and </span>
-        <span className="green">Product Management</span>
-        <span className="opacity">
-          {" "}background. I design and build digital solutions always thinking about
-          how the user might interact with the product.
-        </span>
+      <p className="bottom">
+        <span className="opacity"> Hello! My name is</span>
+        <span className="green"> Ana Sobrino</span>
+        <span className="opacity">,</span>
+      </p>
+      <h2>I build digital products.</h2>
+      <p className="green bottom">Product Manager + Software Engineer</p>
+      <p className="text-box opacity bottom">
+        I’m a junior Software Engineer with a User Experience and Product
+        Management background. I design and build digital solutions always
+        thinking about how the user might interact with the product.
       </p>
       <a href="mailto:asobrinonunez@gmail.com">
         <button className="green green-btn">Get in touch!</button>

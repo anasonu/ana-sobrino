@@ -30,7 +30,12 @@ h1 {
 
 h2 {
   margin-top: 0;
+  margin: 0;
 }
+
+.bottom {
+  margin-bottom: 32px;
+ }
 
 .opacity {
   opacity: .7;
@@ -75,6 +80,10 @@ h2 {
     align-items: center;
   }
   
+  .bottom {
+    margin-bottom: 40px;
+   }
+
   .presentation-box {
     width: 40%;
   }
@@ -87,17 +96,17 @@ h2 {
     font-size: 16px;
   }
 
-  .bold {
-    font-weight: bold;
+  .object-content {
+    position: relative;
+    left: 48px;
   }
   
   h1 {
-    font-size: 60px;
-    margin: 24px 0 8px 0;
+    font-size: 40px;
+    margin-bottom: 40px;
   }
   
   h2 {
-    margin: 0 0 24px 0;
     font-size: 40px;
   }
   
