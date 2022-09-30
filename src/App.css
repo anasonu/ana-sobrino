@@ -54,7 +54,8 @@ h2 {
 .green-btn {
   background-color: transparent;
   border: 1px solid var(--green);
-  padding: 14px 24px;
+  padding: 14px 0;
+  width: 100%;
   border-radius: 3px;
   transition: background-color .3s;
   margin: 8px 0 24px 0;
@@ -66,7 +67,7 @@ h2 {
   width: 160px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin: 0 auto 32px auto;
 }
 
 .icon {
@@ -118,6 +119,8 @@ h2 {
   .green-btn {
     cursor: pointer;
     transition: background-color .3s ease-in-out;
+    width: auto;
+    padding: 14px 24px;
     margin: 0 0 32px 0;
   }
 
@@ -135,7 +138,7 @@ h2 {
 
   .icons-box {
     width: 170px;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   .icon {
