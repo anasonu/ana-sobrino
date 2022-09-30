@@ -7,13 +7,15 @@ function Intro() {
       <p className="green">Hello! My name is</p>
       <h1>Ana Sobrino.</h1>
       <h2 className="opacity">I build digital products.</h2>
-      <p className="text-box">
-        <span className="opacity">I’m a junior software engineer with a</span>
-        <span className="green"> User Experience </span>
-        <span className="opacity">and</span>
-        <span className="green"> Product Management </span>
+      <p className="text-box opacity">
+        <span className="opacity">I’m a junior </span>
+        <span className="green">Software Engineer</span>
+        <span className="opacity"> with a </span>
+        <span className="green">User Experience</span>
+        <span className="opacity"> and </span>
+        <span className="green">Product Management</span>
         <span className="opacity">
-          background. I design and build digital solutions always thinking about
+          {" "}background. I design and build digital solutions always thinking about
           how the user might interact with the product.
         </span>
       </p>

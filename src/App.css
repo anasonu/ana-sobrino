@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Code+Pro&display=swap');
+
+:root {
+  --dark: #0D0827;
+  --white: #f1effc;
+  --green: #64fbd3;
+  --green-opacity: rgba(100, 251, 211, 0.3);
+}
+
 body{
-  background-color: #0D0827;
-  color: #efecff;
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
 }
 
 .App {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .working-img {
@@ -15,6 +25,7 @@ body{
 
 h1 {
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 h2 {
@@ -30,14 +41,14 @@ h2 {
 }
 
 .green {
-  color: #64FBD3;
-  font-family: monospace;
+  color: var(--green);
+  font-family: 'Source Code Pro', monospace;
   font-size: 16px;
 }
 
 .green-btn {
   background-color: transparent;
-  border: 1px solid #64fbd3;
+  border: 1px solid var(--green);
   padding: 14px 24px;
   border-radius: 3px;
   transition: background-color .3s;
@@ -51,6 +62,10 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
+}
+
+.icon {
+  stroke: var(--white);
 }
 
 @media (min-width: 768px) {
@@ -73,13 +88,13 @@ h2 {
   }
   
   h1 {
-    font-size: 70px;
+    font-size: 60px;
     margin: 24px 0 8px 0;
   }
   
   h2 {
     margin: 0 0 24px 0;
-    font-size: 50px;
+    font-size: 40px;
   }
   
   .text-box {
@@ -90,33 +105,38 @@ h2 {
 
   .green-btn {
     cursor: pointer;
-    transition: background-color .3s;
+    transition: background-color .3s ease-in-out;
     margin: 0 0 32px 0;
   }
 
   .green-btn:hover {
-    background-color: #64FBD3;
-    color: #0A1A2F;
+    background-color: var(--green);
+    color: var(--dark);
+    transition: background-color .3s ease-in-out;
   }
   
   .green-btn:active {
-    background-color: rgba(100, 251, 211, 0.3);
+    background-color: var(--green-opacity);
   }
 
   /* Icons */
 
   .icons-box {
     width: 170px;
+    margin-bottom: 0;
   }
 
   .icon {
   cursor: pointer;
+  bottom: 0;
   position: relative;
+  transition: stroke .3s ease-in-out, bottom .2s ease-in-out;
 }
 
 .icon:hover {
-  stroke: #64FBD3;
-  bottom: 1px;
+  stroke: var(--green);
+  bottom: 2px;
+  transition: stroke .3s ease-in-out, bottom .2s ease-in-out;
 }
   
 }

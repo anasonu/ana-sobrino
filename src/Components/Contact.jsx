@@ -49,7 +49,7 @@ function Contact() {
           </svg>
         </a>
       </div>
-      <div>
+      <div className="icon twitter-icon">
         <a href="https://twitter.com/anasonu" target="_blank" rel="noreferrer">
           <svg
             className="icon twitter-icon"
