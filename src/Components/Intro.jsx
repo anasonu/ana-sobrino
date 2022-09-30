@@ -7,7 +7,7 @@ function Intro() {
       <p className="green">Hello! My name is</p>
       <h1>Ana Sobrino.</h1>
       <h2 className="opacity">I build digital products.</h2>
-      <p className="text-box opacity">
+      <p className="text-box">
         <span className="opacity">I’m a junior </span>
         <span className="green">Software Engineer</span>
         <span className="opacity"> with a </span>
