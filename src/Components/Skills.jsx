@@ -13,56 +13,56 @@ function Skills() {
         <div>
           <p className="green">Programming Language</p>
           <ul>
-            <li>JavaScript ES6</li>
-            <li>TypeScript</li>
+            <li className="opacity">JavaScript ES6</li>
+            <li className="opacity">TypeScript</li>
           </ul>
         </div>
 
         <div>
           <p className="green">FrontEnd</p>
           <ul>
-            <li>ReactJs</li>
-            <li>NextJs</li>
+            <li className="opacity">ReactJs</li>
+            <li className="opacity">NextJs</li>
           </ul>
         </div>
 
         <div>
           <p className="green">BackEnd & Database</p>
           <ul>
-            <li>NodeJs</li>
-            <li>ExpressJs</li>
-            <li>API REST</li>
-            <li>Axios</li>
-            <li>MongoDB</li>
-            <li>Mongoose</li>
-            <li>Postman</li>
-            <li>Handlebars</li>
+            <li className="opacity">NodeJs</li>
+            <li className="opacity">ExpressJs</li>
+            <li className="opacity">API REST</li>
+            <li className="opacity">Axios</li>
+            <li className="opacity">MongoDB</li>
+            <li className="opacity">Mongoose</li>
+            <li className="opacity">Postman</li>
+            <li className="opacity">Handlebars</li>
           </ul>
         </div>
 
         <div>
           <p className="green">Markup / Styling Language</p>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li className="opacity">HTML5</li>
+            <li className="opacity">CSS3</li>
           </ul>
         </div>
 
         <div>
           <p className="green">Version control & Tools</p>
           <ul>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
+            <li className="opacity">Git</li>
+            <li className="opacity">Github</li>
+            <li className="opacity">Heroku</li>
+            <li className="opacity">Netlify</li>
           </ul>
         </div>
 
         <div>
           <p className="green">Testing</p>
           <ul>
-            <li>Jest</li>
-            <li>Cypress</li>
+            <li className="opacity">Jest</li>
+            <li className="opacity">Cypress</li>
           </ul>
         </div>
 

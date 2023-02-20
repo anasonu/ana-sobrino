@@ -16,7 +16,7 @@ function Projects() {
           </div>
           <h4 className="project-title">The Requesting Partner</h4>
           <p className="green">Minigame</p>
-          <p className="description">
+          <p className="description opacity">
             An easy yet fun minigame in which you have to run away from your
             partner, avoiding obstacles, in order to save yourself of doing
             chores.
@@ -54,7 +54,7 @@ function Projects() {
           </div>
           <h4 className="project-title">Top-Games Portal</h4>
           <p className="green">CRUD Application</p>
-          <p className="description">
+          <p className="description opacity">
             A portal that contains every minigame developed by my collegues.
             With user authentication and different permissions depending on the
             role.
@@ -94,7 +94,7 @@ function Projects() {
           </div>
           <h4 className="project-title">byChapters</h4>
           <p className="green">CRUD Application</p>
-          <p className="description">
+          <p className="description opacity">
             A portal where writers can upload their own novels/stories by
             chapters. Users can read them, mark as favorites and share their
             favorite chapters. It has a token based authentication.
