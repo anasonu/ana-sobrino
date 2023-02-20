@@ -9,7 +9,7 @@ function Intro() {
         <span className="green"> Ana Sobrino</span>
         <span className="opacity">,</span>
       </p>
-      <h2>I build digital products.</h2>
+      <h2 className="main-title">I build digital products.</h2>
       <p className="green bottom">UX/UI Design + Web Development</p>
       <p className="text-box opacity bottom">
         I’m a FullStack web developer with a User Experience and Product
