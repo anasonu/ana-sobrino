@@ -55,9 +55,13 @@ function Projects() {
           <h4 className="project-title">Top-Games Portal</h4>
           <p className="green">CRUD Application</p>
           <p className="description">
-            A portal that contains every minigame developed by my collegues. With user authentication and different permissions depending on the role.
+            A portal that contains every minigame developed by my collegues.
+            With user authentication and different permissions depending on the
+            role.
           </p>
-          <p className="green">NodeJS, ExpressJS, MongoDB, Mongoose, Handlebars</p>
+          <p className="green">
+            NodeJS, ExpressJS, MongoDB, Mongoose, Handlebars
+          </p>
           <div className="project-links">
             <a
               className="icon"
@@ -91,7 +95,9 @@ function Projects() {
           <h4 className="project-title">byChapters</h4>
           <p className="green">CRUD Application</p>
           <p className="description">
-            A portal where writers can upload their own novels/stories by chapters. Users can read them, mark as favorites and share their favorite chapters. It has a token based authentication.
+            A portal where writers can upload their own novels/stories by
+            chapters. Users can read them, mark as favorites and share their
+            favorite chapters. It has a token based authentication.
           </p>
           <p className="green">ReactJS, NodeJS, ExpressJS, MongoDB, Mongoose</p>
           <div className="project-links">
@@ -119,7 +125,17 @@ function Projects() {
             </a>
           </div>
         </div>
+      </div>
 
+      <div className="more-projects-link-container">
+        <a
+          className="green more-projects"
+          href="https://github.com/anasonu"
+          target="_blank"
+          rel="noreferrer"
+        >
+          More projects on my Github! →
+        </a>
       </div>
     </div>
   );

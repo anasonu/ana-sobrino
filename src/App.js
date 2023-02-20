@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer";
 import Img from "./Components/Img";
 import Intro from "./Components/Intro";
 import Projects from "./Components/Projects";
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }
