@@ -20,7 +20,7 @@ function Projects() {
           </div>
           <p className="description opacity">
             An easy yet fun minigame in which you have to run away from your
-            partner, avoiding obstacles, in order to save yourself of doing
+            partner, avoiding obstacles, in order to save yourself from doing
             chores.
           </p>
           <p className="green stack">HTML, CSS, JavaScript</p>
