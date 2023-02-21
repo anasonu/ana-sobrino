@@ -28,8 +28,7 @@ h1 {
   font-weight: bold;
 }
 
-h2 .main-title {
-  margin-top: 0;
+.main-title {
   margin: 0;
 }
 
@@ -40,7 +39,6 @@ h3 {
 
 .container {
   width: 80%;
-  margin: 0 auto;
   margin: 60px auto;
 }
 
@@ -78,6 +76,7 @@ hr {
 }
 
 .bottom {
+  margin-top: 8px;
   margin-bottom: 32px;
 }
 
@@ -289,7 +288,11 @@ ul li::before {
   }
 
   .container {
-    margin: 100px auto;
+    margin: 120px auto;
+  }
+
+  .container.skills-main-container {
+    margin-top: 60px;
   }
 
   .section-container {
